@@ -17,7 +17,17 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {      
+      "@gfe/pattern-lib/*": [
+        "projects/pattern-lib/*",
+        "projects/spattern-lib"
+      ],
+      "@gfe/pattern-lib/": [
+        "dist/pattern-lib/*",
+        "dist/pattern-lib"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
